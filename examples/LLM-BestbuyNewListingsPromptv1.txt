@@ -1,0 +1,53 @@
+This is a completed template that was successfully validated and imported to create new listings on Bestbuy Marketplace.
+The same laptop is listed in multiple variants of storage and RAM configurations under 2 web-hierarchies:
+(Windows Laptops - code BB_36711) + platform as PC Laptop + Variant Group as as-i7-win
+(Gaming Laptops - code BB_36712) platform as Gaming + Variant Group as as-i7-win-2
+
+## Note
+There are more details in the RefereceDate & columns sheets for fields with pre-defined expected values.
+
+## My Shop sku format
+Unique abbreviation of the brand - model - identifiable attribute - RAM - Storage
+ex. 
+AS-i7-
+Asus - AS
+Model - Vivobook but i didn't include it as I don't have other Asus models now
+Attribute as i7 given I have the same in i5 too
+RAM 16-24-40
+SSD 512-1000-2000 GB
+--> This format is important as it get printed on the label for fulfillment as the content manifest.
+
+## Variant Group Codes
+I also keep variant group codes easy to identify which shop skus belong to it.
+Web hierarchy and platform 
+
+## UPC Codes
+Bestbuy has a weird UPC lookup for variants. 
+I found that clothing UPCs from Mango Spain beginning with 8 or 0 resolve without errors.
+examples included in the template provided.
+
+## Listing Fields Requirements:
+
+Mandatory/Key Product Attributes	Description	Restrictions
+Title	View title guidelines here: https://sellerhub.bestbuy.ca/s/article/Title-Guidelines	180-character limit. 
+Title must include product condition at the end as part of the title with the format of: <{title} - {condition}>
+ex. title...end-of-title - Refurbished Excellent   
+Characters such as hashtags, brackets, Emojis, special fonts, semicolons etc. are not allowed. Please use only alphanumeric characters in the Title.
+Short Description	An overview of the product and how it works	No external references, retailer name or HTML allowed; 480-character limit
+Brand Name	Brand of the product (do not enter the store name unless it is the same as the brand)	20-character limit
+Model Number	Should be unique to each product	20-character limit --> Just use a simplified version ex. Vivobook
+Manufacturer’s Part Number	If there is no MPN, enter model number	30-character limit --> Use Model Number for this field ex. Vivobook
+Long Description	Recommend to be listed in bullet point format to list specifications and further details	10,000-character limit. External web links and other retailer names are not allowed
+Product Condition	Select one of the following:
+Brand New – New in Box, Sealed, Factory Fresh
+Open Box – Opened Unused, Damaged/Open Packaging, Certified Pre-Owned
+Refurbished (Excellent) - Grade A+, Certified Refurbished, Manufacturer Recertified
+Refurbished (Good) – Grade A
+Refurbished (Fair) – Grade B
+One condition type per sku
+Image Sources	Regular: 500 x 500 pixels @ 72 PPI
+Zoom: 1500 x 1500 pixels @ 72 PPI
+JPG, PNG, GIF format only.
+10 MB maximum per image.
+All image URLs should be a direct link ending in .jpg, .png. or .gif.	10 images maximum
+Web Hierarchy Location	Allows you to map your product to the most specific category to make it easily searchable for your customers, more information here: https://sellerhub.bestbuy.ca/s/article/Web-Hierarchy-Location-Assignment<	One web hierarchy location code per sku
